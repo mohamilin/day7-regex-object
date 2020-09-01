@@ -114,8 +114,10 @@ footer.page-footer {
 
 .data {
   margin-bottom: 30px;
-  border-bottom-style: dashed; 
-  border-color: royalblue;
+}
+
+.col-info > h2{
+  font-size: 20px;
 }
 .col > img {
   height: 100px;

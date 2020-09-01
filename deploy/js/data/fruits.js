@@ -1,5 +1,5 @@
 //Data Buahnya
-const fruits = [
+let fruits = [
     {
         fruitName : "Tomat",
         latinName : "Solanum lycopersicum",
@@ -58,5 +58,5 @@ const fruits = [
     }
 ];
 
-//kita buah fungsinya
-export{fruits}
+
+export {fruits}
