@@ -59,17 +59,4 @@ const fruits = [
 ];
 
 //kita buah fungsinya
-fruits.forEach(function (getData) {
-
-    const div = document.createElement('div');
-    div.className = "col s3 data";
-
-    div.innerHTML = '<img class=""  src="' + getData.fruitImage + '" alt="Fruits">\n' +
-        '<div class="info">\n' + '<br>' +
-        '<h2>' + getData.fruitName + '</h2>\n' +
-        '<p>'+ '<em>' + getData.latinName + '</em>' + '</p>' +
-        '<p>' + getData.fruitColor + '</p>' +
-        '<p>' + getData.fruitBiji + '</p>' +
-        '</div>';
-    document.getElementById("list").appendChild(div);
-});
+export{fruits}
